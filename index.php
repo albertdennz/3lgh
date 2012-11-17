@@ -25,7 +25,8 @@
                     $("#tab-project-1").tabs();
                     $("#accordion-projects").accordion({
                         heightStyle: "content",
-                        collapsible: "true"
+                        collapsible: "true",
+                        active: "false"
                     });
                 });
 			});
@@ -102,7 +103,7 @@
             <div id="projects">
                 <div class="section-header">Projects</div>
                 <div id="accordion-projects">
-                    <h3>Project 1</h3>
+                    <h3><div class="accordion-header"><img src="images/gh1.png"></div></h3>
                     <div>
 
                         <!-- tabs -->
