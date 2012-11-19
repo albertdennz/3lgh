@@ -3,15 +3,17 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>Home | Griya Hijau</title>
-        <link rel="stylesheet" type="text/css" href="source/style/css/style.css" media="screen" title="style (screen)" />
-        <link rel="stylesheet" type="text/css" href="source/style/css/menu.css" media="screen" title="style (screen)" />
-        
-        
+
+        <!-- CSS -->
 		<link type="text/css" href="style/jquery-ui-1.9.1.custom.min.css" rel="stylesheet" />
         <link type="text/css" href="style/menu.css" rel="stylesheet" />
         <link type="text/css" href="style/style.css" rel="stylesheet" />
+
+        <!-- JAVASCRIPT -->
 		<script type="text/javascript" src="js/jquery-1.8.2.js"></script>
 		<script type="text/javascript" src="js/jquery-ui-1.9.1.custom.min.js"></script>
+        <script type="text/javascript" src="js/lightbox.js"></script>
+
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$(".slidingDiv").hide();
