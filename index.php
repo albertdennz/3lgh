@@ -5,9 +5,10 @@
         <title>Home | Griya Hijau</title>
 
         <!-- CSS -->
-		<link type="text/css" href="style/jquery-ui-1.9.1.custom.min.css" rel="stylesheet" />
-        <link type="text/css" href="style/menu.css" rel="stylesheet" />
-        <link type="text/css" href="style/style.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="style/jquery-ui-1.9.1.custom.min.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="style/menu.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="style/style.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="style/lightbox.css">
 
         <!-- JAVASCRIPT -->
 		<script type="text/javascript" src="js/jquery-1.8.2.js"></script>
@@ -116,15 +117,16 @@
                             </ul>
                             <div id="tabs-1">
                             	<div class="tipeA"></div>
+
+                                <a href="images/content/MANSION-GARDEN%20TIPE-41%20dan%2045.jpg" rel="lightbox" title="my caption">image #1</a>
+                                <div class="thumbpic"></div>
                                 
-                                <h4>Floor Plan</h4>
-                                <div class="fp1tipeA"><b>Tipe 41/72</b></div>
-                                <div class="fp2tipeA"><b>Tipe 45/108</b></div>
-                                
-                                <br /><br />
+                                <!-- <h4>Floor Plan</h4>
+                                <div class="fp1tipeA"><b><center>Tipe 41/72</center></b></div>
+                                <div class="fp2tipeA"><b><center>Tipe 45/108</center></b></div>
 
                                 <h4>Site Plan</h4>
-                                <div class="sptipeA"></div>
+                                <div class="sptipeA"></div> -->
                             </div>
                             
                             <div id="tabs-2">
