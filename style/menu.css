@@ -95,7 +95,7 @@ h4 {
     text-shadow: 1px 1px #111111;
 }
 
-.tipeA {
+#tipeA {
 	background-image: url(../images/content/MANSION-GARDEN%20TIPE-41%20dan%2045.jpg);
 	background-size:100%;
 	background-repeat:no-repeat;
@@ -103,12 +103,17 @@ h4 {
 	height:450px;
 	border:#063 5px solid;
 	padding:0;
-    margin: 0 auto 0 auto;
+    margin: 20px auto 0 auto;
     color: #CCC;
     text-shadow: 1px 1px #000;
+
+    border-radius: 0px 0px 2px 2px; 
+    -moz-border-radius: 0px 0px 2px 2px; 
+    -webkit-border-radius: 0px 0px 2px 2px;
 }
 
 .tipeB {
+/* kl property unik (dipake cuma 1x) pake id aja (#) jangan class (.) */
 	background-image: url(../images/content/MANSION-GARDEN-TIPE%2069.jpg);
 	background-size:100%;
 	background-repeat:no-repeat;
@@ -119,46 +124,25 @@ h4 {
     margin: 0 auto 0 auto;
 }
 
-.fp1tipeA {
-	background-image:url(../images/content/DENAH-MANSION-TIPE-41-72.jpg);
-	background-size:100%;
-	background-repeat:no-repeat;
-	width:400px;
-	height:600px;
-	border:#063 5px solid;
-	padding:0;
-	float:left;
+
+
+#image-container {
+    height: 260px;
+    width: 715px;
+    margin: 20px auto 60px auto;
 }
 
-.fp2tipeA {
-	background-image:url(../images/content/DENAH-MANSION-TIPE-45-108.jpg);
-	background-size:100%;
-	background-repeat:no-repeat;
-	width:400px;
-	height:600px;
-	border:#063 5px solid;
-	padding:0;
-	float:right;
-}
-
-.fptipeB {
-	background-image:url(../images/content/DENAH-MANSION-TIPE-69-72%202lantai.jpg);
-	background-size:100%;
-	background-repeat:no-repeat;
-	width:800px;
-	height:670px;
-	border:#063 5px solid;
-	padding:0;
-}
-
-.sptipeA {
-	background-image: url(../images/content/siteplan%20mansion%20garden%20-%20green%20valley.jpg);
-	background-size:100%;
-	background-repeat:no-repeat;
-	width:800px;
-	height:700px;
-	border:#063 5px solid;
-	padding:0;
+a img {
+/* images on image-container */
+    float: left;
+    max-height: 250px;
+    border: #063 5px solid;
+    padding: 0;
+    margin: 0 20px 0 20px;
+    
+    border-radius: 0px 0px 2px 2px; 
+    -moz-border-radius: 0px 0px 2px 2px; 
+    -webkit-border-radius: 0px 0px 2px 2px;
 }
 
 
@@ -177,12 +161,6 @@ h4 {
     -moz-border-radius: 0px 0px 5px 5px; 
     -webkit-border-radius: 0px 0px 5px 5px;
 }
-
-.thumbpic {
-    
-}
-
-/* SUBMENUS - START */
 
 #content{
     width:100%;
@@ -203,8 +181,6 @@ h4 {
     width: 100%;
     height: 1000px;
 }
-
-/* SUBMENUS - END */
 
 .section-header {
     color: #555555;

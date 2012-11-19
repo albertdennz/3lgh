@@ -116,10 +116,23 @@
                                 <li><a href="#tabs-2">Tipe-B</a></li>
                             </ul>
                             <div id="tabs-1">
-                            	<div class="tipeA"></div>
+                            	<div id="tipeA"></div>
 
-                                <a href="images/content/MANSION-GARDEN%20TIPE-41%20dan%2045.jpg" rel="lightbox" title="my caption">image #1</a>
-                                <div class="thumbpic"></div>
+                                <div id="image-container">
+
+                                    <a href="images/content/denah-41-72.jpg" rel="lightbox[tipeA]" title="Denah Bangunan Tipe 41/72">
+                                        <img src="images/content/denah-41-72.jpg">
+                                    </a>
+
+                                    <a href="images/content/denah-45-108.jpg" rel="lightbox[tipeA]" title="Denah Bangunan Tipe 45/108">
+                                        <img src="images/content/denah-45-108.jpg">
+                                    </a>
+
+                                    <a href="images/content/siteplan.jpg" rel="lightbox[tipeA]" title="Siteplan">
+                                        <img src="images/content/siteplan.jpg">
+                                    </a>
+
+                                </div>
                                 
                                 <!-- <h4>Floor Plan</h4>
                                 <div class="fp1tipeA"><b><center>Tipe 41/72</center></b></div>
