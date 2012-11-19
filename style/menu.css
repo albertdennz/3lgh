@@ -91,6 +91,69 @@ body {
     text-shadow: 1px 1px #111111;
 }
 
+.tipeA {
+	background-image: url(../../images/MANSION-GARDEN%20TIPE-41%20dan%2045.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	width:800px;
+	height:450px;
+	border:#063 5px solid;
+	padding:0;
+}
+
+.tipeB {
+	background-image: url(../../images/MANSION-GARDEN-TIPE%2069.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	width:850px;
+	height:550px;
+	border:#063 5px solid;
+	padding:0;
+}
+
+.fp1tipeA {
+	background-image:url(../../images/DENAH-MANSION-TIPE-41-72.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	width:400px;
+	height:600px;
+	border:#063 5px solid;
+	padding:0;
+	float:left;
+}
+
+.fp2tipeA {
+	background-image:url(../../images/DENAH-MANSION-TIPE-45-108.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	width:400px;
+	height:600px;
+	border:#063 5px solid;
+	padding:0;
+	float:right;
+}
+
+.fptipeB {
+	background-image:url(../../images/DENAH-MANSION-TIPE-69-72%202lantai.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	width:800px;
+	height:670px;
+	border:#063 5px solid;
+	padding:0;
+}
+
+.sptipeA {
+	background-image: url(../../images/siteplan%20mansion%20garden%20-%20green%20valley.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	width:800px;
+	height:700px;
+	border:#063 5px solid;
+	padding:0;
+}
+
+
 #main {
     position: relative;
     width: 1024px;
