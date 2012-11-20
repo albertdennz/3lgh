@@ -68,7 +68,6 @@
 	</head>
     
     <body>
-        <div id="mainHeader"></div>
         <div id="toolbar" class="dropShadow">
             <div id="toolbar-header">
                 GRIYA HIJAU Development
@@ -84,6 +83,7 @@
                 <li class="icon-twitter"><a href=""></a></li>
             </ul>
         </div>
+        <div id="mainHeader"></div>
         <div id="sections">
             <div id="home">
                 <div class="section-header">Griya Hijau Development</div>
@@ -118,20 +118,22 @@
                             <div id="tabs-1">
                             	<div id="tipeA"></div>
 
-                                <div id="image-container">
+                                <div id="container-1">
+                                    <div class="image-container">
 
-                                    <a href="images/content/denah-41-72.jpg" rel="lightbox[tipeA]" title="Denah Bangunan Tipe 41/72">
-                                        <img src="images/content/denah-41-72.jpg">
-                                    </a>
+                                        <a href="images/content/denah-41-72.jpg" rel="lightbox[tipeA]" title="Denah Bangunan Tipe 41/72">
+                                            <img src="images/content/denah-41-72.jpg">
+                                        </a>
 
-                                    <a href="images/content/denah-45-108.jpg" rel="lightbox[tipeA]" title="Denah Bangunan Tipe 45/108">
-                                        <img src="images/content/denah-45-108.jpg">
-                                    </a>
+                                        <a href="images/content/denah-45-108.jpg" rel="lightbox[tipeA]" title="Denah Bangunan Tipe 45/108">
+                                            <img src="images/content/denah-45-108.jpg">
+                                        </a>
 
-                                    <a href="images/content/siteplan.jpg" rel="lightbox[tipeA]" title="Siteplan">
-                                        <img src="images/content/siteplan.jpg">
-                                    </a>
+                                        <a href="images/content/siteplan.jpg" rel="lightbox[tipeA]" title="Siteplan">
+                                            <img src="images/content/siteplan.jpg">
+                                        </a>
 
+                                    </div>
                                 </div>
                                 
                                 <!-- <h4>Floor Plan</h4>
