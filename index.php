@@ -165,9 +165,25 @@
                         <!-- tabs -->
                     </div>
 
-                    <h3>Mansion Garden</h3>
+                    <h3><div class="accordion-header"><img src="images/mg.png"></div></h3>
                     <div>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
+                    
+                         <!-- tabs -->
+                        <div id="tab-project-1">
+                            <ul>
+                                <li><a href="#tabs-1">Tulip</a></li>
+                                <li><a href="#tabs-2">Rose</a></li>
+                            </ul>
+                            <div id="tabs-1">
+                            	
+                            </div>
+                            
+                            <div id="tabs-2">
+                            	
+                            </div>
+                        </div>
+                        <!-- tabs -->
+                        
                     </div>
                 </div>
             </div>
