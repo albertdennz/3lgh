@@ -114,16 +114,21 @@ h4 {
     -webkit-border-radius: 5px;
 }
 
-.tipeB {
-/* kl property unik (dipake cuma 1x) pake id aja (#) jangan class (.) */
-	background-image: url(../images/content/MANSION-GARDEN-TIPE%2069.jpg);
-	background-size:100%;
-	background-repeat:no-repeat;
-	width:800px;
-	height:560px;
-	border:#063 5px solid;
-	padding:0;
-    margin: 0 auto 0 auto;
+#tipeB {
+    background-image: url(../images/content/MANSION-GARDEN-TIPE%2069.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+    width:800px;
+    height:560px;
+    border:#063 10px solid;
+    padding:0;
+    margin: 20px auto 0 auto;
+    color: #CCC;
+    text-shadow: 1px 1px #000;
+
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
 }
 
 
@@ -131,6 +136,12 @@ h4 {
 #container-1 {
     height: 270px;
     width: 685px;
+    margin: 20px auto 60px auto;
+}
+
+#container-2 {
+    height: 270px;
+    width: 595px;
     margin: 20px auto 60px auto;
 }
 

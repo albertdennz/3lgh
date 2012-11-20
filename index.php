@@ -145,15 +145,21 @@
                             </div>
                             
                             <div id="tabs-2">
-                            	<div class="tipeB"></div>
+                            	<div id="tipeB"></div>
                                 
-                                <h4>Floor Plan</h4>
-                                <div class="fptipeB"></div>
-                                
-                                <br /><br />
-
-                                <h4>Site Plan</h4>
-                                <div class="sptipeA"></div>
+                                <div id="container-2">
+                                    <div class="image-container">
+                                    
+                                        <a href="images/content/denah-69-72.jpg" rel="lightbox[tipeB]" title="Denah Bangunan Tipe 69/72">
+                                                <img src="images/content/denah-69-72.jpg">
+                                            </a>
+                                        
+                                        <a href="images/content/siteplan.jpg" rel="lightbox[tipeB]" title="Siteplan">
+                                                <img src="images/content/siteplan.jpg">
+                                        </a>
+                                        
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <!-- tabs -->
