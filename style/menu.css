@@ -101,7 +101,7 @@ h4 {
 }
 
 #tipeA {
-	background-image: url(../images/content/MANSION-GARDEN%20TIPE-41%20dan%2045.jpg);
+	background-image: url(../images/content/Green%20Valley/MANSION-GARDEN%20TIPE-41%20dan%2045.jpg);
 	background-size:100%;
 	background-repeat:no-repeat;
 	width:800px;
@@ -118,7 +118,7 @@ h4 {
 }
 
 #tipeB {
-    background-image: url(../images/content/MANSION-GARDEN-TIPE%2069.jpg);
+    background-image: url(../images/content/Green%20Valley/MANSION-GARDEN-TIPE%2069.jpg);
     background-size:100%;
     background-repeat:no-repeat;
     width:800px;
@@ -134,6 +134,39 @@ h4 {
     -webkit-border-radius: 5px;
 }
 
+#tulip {
+	background-image: url(../images/content/Mansion%20Garden/tulip.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	width:480px;
+	height:630px;
+	border:#063 10px solid;
+	padding:0;
+    margin: 20px auto 0 auto;
+    color: #CCC;
+    text-shadow: 1px 1px #000;
+
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+}
+
+#rose {
+	background-image: url(../images/content/Mansion%20Garden/rose.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	width:600px;
+	height:550px;
+	border:#063 10px solid;
+	padding:0;
+    margin: 20px auto 0 auto;
+    color: #CCC;
+    text-shadow: 1px 1px #000;
+
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+}
 
 
 #container-1 {

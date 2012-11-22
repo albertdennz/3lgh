@@ -122,16 +122,16 @@
                                 <div id="container-1">
                                     <div class="image-container">
 
-                                        <a href="images/content/denah-41-72.jpg" rel="lightbox[tipeA]" title="Denah Bangunan Tipe 41/72">
-                                            <img src="images/content/denah-41-72.jpg">
+                                        <a href="images/content/Green Valley/denah-41-72.jpg" rel="lightbox[tipeA]" title="Denah Bangunan Tipe 41/72">
+                                            <img src="images/content/Green Valley/denah-41-72.jpg">
                                         </a>
 
-                                        <a href="images/content/denah-45-108.jpg" rel="lightbox[tipeA]" title="Denah Bangunan Tipe 45/108">
-                                            <img src="images/content/denah-45-108.jpg">
+                                        <a href="images/content/Green Valley/denah-45-108.jpg" rel="lightbox[tipeA]" title="Denah Bangunan Tipe 45/108">
+                                            <img src="images/content/Green Valley/denah-45-108.jpg">
                                         </a>
 
-                                        <a href="images/content/siteplan.jpg" rel="lightbox[tipeA]" title="Siteplan">
-                                            <img src="images/content/siteplan.jpg">
+                                        <a href="images/content/Green Valley/siteplan.jpg" rel="lightbox[tipeA]" title="Siteplan">
+                                            <img src="images/content/Green Valley/siteplan.jpg">
                                         </a>
 
                                     </div>
@@ -146,17 +146,17 @@
                             </div>
                             
                             <div id="tabs-2">
-                            	<div id="tipeB"></div>
+                            	<div id="tipeB" class="dropShadow"></div>
                                 
                                 <div id="container-2">
                                     <div class="image-container">
                                     
-                                        <a href="images/content/denah-69-72.jpg" rel="lightbox[tipeB]" title="Denah Bangunan Tipe 69/72">
-                                                <img src="images/content/denah-69-72.jpg">
+                                        <a href="images/content/Green Valley/denah-69-72.jpg" rel="lightbox[tipeB]" title="Denah Bangunan Tipe 69/72">
+                                                <img src="images/content/Green Valley/denah-69-72.jpg">
                                             </a>
                                         
-                                        <a href="images/content/siteplan.jpg" rel="lightbox[tipeB]" title="Siteplan">
-                                                <img src="images/content/siteplan.jpg">
+                                        <a href="images/content/Green Valley/siteplan.jpg" rel="lightbox[tipeB]" title="Siteplan">
+                                                <img src="images/content/Green Valley/siteplan.jpg">
                                         </a>
                                         
                                     </div>
@@ -176,11 +176,48 @@
                                 <li><a href="#tabs-2">Rose</a></li>
                             </ul>
                             <div id="tabs-1">
-                            	
+                            	<div id="tulip" class="dropShadow"></div>
+                                
+                                <div id="container-1">
+                                    <div class="image-container">
+
+                                        <a href="images/content/Mansion Garden/denah-41-72.jpg" rel="lightbox[tulip]" title="Denah Bangunan Tipe 41/72">
+                                            <img src="images/content/Mansion Garden/denah-41-72.jpg">
+                                        </a>
+
+                                        <a href="images/content/Mansion Garden/site-plan.jpg" rel="lightbox[tulip]" title="Siteplan">
+                                            <img src="images/content/Mansion Garden/site-plan.jpg">
+                                        </a>
+                                        
+                                        <a href="images/content/Mansion Garden/peta-lokasi(view).jpg" rel="lightbox[tulip]" title="Peta Lokasi">
+                                            <img src="images/content/Mansion Garden/peta-lokasi.jpg">
+                                        </a>
+
+                                    </div>
+                                </div>
                             </div>
                             
                             <div id="tabs-2">
-                            	
+                            	<div id="rose" class="dropShadow"></div>
+                                
+                                <div id="container-2">
+                                    <div class="image-container">
+
+                                        <a href="images/content/Mansion Garden/denah-45-84.jpg" rel="lightbox[rose]" title="Denah Bangunan Tipe 45/84">
+                                            <img src="images/content/Mansion Garden/denah-45-84.jpg">
+                                        </a>
+
+                                        <a href="images/content/Mansion Garden/site-plan.jpg" rel="lightbox[rose]" title="Siteplan">
+                                            <img src="images/content/Mansion Garden/site-plan.jpg">
+                                        </a>
+                                        
+                                        <a href="images/content/Mansion Garden/peta-lokasi(view).jpg" rel="lightbox[rose]" title="Peta Lokasi">
+                                            <img src="images/content/Mansion Garden/peta-lokasi.jpg">
+                                        </a>
+
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
                         <!-- tabs -->
