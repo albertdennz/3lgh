@@ -26,6 +26,7 @@
 
                 $(function() {
                     $("#tab-project-1").tabs();
+                    $("#tab-project-2").tabs();
                     $("#accordion-projects").accordion({
                         heightStyle: "content",
                         collapsible: "true",
@@ -116,7 +117,7 @@
                                 <li><a href="#tabs-2">Tipe-B</a></li>
                             </ul>
                             <div id="tabs-1">
-                            	<div id="tipeA"></div>
+                            	<div id="tipeA" class="dropShadow"></div>
 
                                 <div id="container-1">
                                     <div class="image-container">
@@ -165,11 +166,11 @@
                         <!-- tabs -->
                     </div>
 
-                    <h3><div class="accordion-header"><img src="images/mg.png"></div></h3>
+                    <h3><div class="accordion-header"><img src="images/mg1.png"></div></h3>
                     <div>
                     
                          <!-- tabs -->
-                        <div id="tab-project-1">
+                        <div id="tab-project-2">
                             <ul>
                                 <li><a href="#tabs-1">Tulip</a></li>
                                 <li><a href="#tabs-2">Rose</a></li>
