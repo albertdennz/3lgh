@@ -26,6 +26,7 @@
 
                 $(function() {
                     $("#tab-project-1").tabs();
+                    $("#tab-project-2").tabs();
                     $("#accordion-projects").accordion({
                         heightStyle: "content",
                         collapsible: "true",
@@ -38,6 +39,32 @@
         <!--Map-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <meta charset="UTF-8">
+
+        <!-- TWITTER SCRIPT -->
+        <script>
+        !function(d,s,id){
+            var js,fjs=d.getElementsByTagName(s)[0];
+            if(!d.getElementById(id)){
+                js=d.createElement(s);
+                js.id=id;
+                js.src="//platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js,fjs);
+            }
+        }
+        (document,"script","twitter-wjs");
+        </script>
+
+        <!-- FACEBOOK SCRIPT -->
+        <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
         
         <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
             <script type="text/javascript">
@@ -68,7 +95,7 @@
 	</head>
     
     <body>
-        <div id="toolbar" class="dropShadow">
+        <div id="toolbar">
             <div id="toolbar-header">
                 GRIYA HIJAU Development
             </div>
@@ -78,9 +105,17 @@
                 <li><a href="#about-us">About Us</a></li>
                 <li><a href="javascript:void(0)" class="show_hide">Contact Us</a></li>
                 <li>|</li>
-                <li>Stay Connected</li>
-                <li class="icon-facebook"><a href=""></a></li>
-                <li class="icon-twitter"><a href=""></a></li>
+                <li>
+                    Stay Connected
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/google" class="twitter-follow-button" data-show-count="false">Follow @google</a>
+                        </li>
+                        <li>
+                            <div class="fb-like" data-href="http://www.facebook.com/Google" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </div>
         <div id="mainHeader"></div>
@@ -116,21 +151,21 @@
                                 <li><a href="#tabs-2">Tipe-B</a></li>
                             </ul>
                             <div id="tabs-1">
-                            	<div id="tipeA"></div>
+                            	<div id="tipeA" class="dropShadow"></div>
 
                                 <div id="container-1">
                                     <div class="image-container">
 
-                                        <a href="images/content/denah-41-72.jpg" rel="lightbox[tipeA]" title="Denah Bangunan Tipe 41/72">
-                                            <img src="images/content/denah-41-72.jpg">
+                                        <a href="images/content/Green Valley/denah-41-72.jpg" rel="lightbox[tipeA]" title="Denah Bangunan Tipe 41/72">
+                                            <img src="images/content/Green Valley/denah-41-72.jpg">
                                         </a>
 
-                                        <a href="images/content/denah-45-108.jpg" rel="lightbox[tipeA]" title="Denah Bangunan Tipe 45/108">
-                                            <img src="images/content/denah-45-108.jpg">
+                                        <a href="images/content/Green Valley/denah-45-108.jpg" rel="lightbox[tipeA]" title="Denah Bangunan Tipe 45/108">
+                                            <img src="images/content/Green Valley/denah-45-108.jpg">
                                         </a>
 
-                                        <a href="images/content/siteplan.jpg" rel="lightbox[tipeA]" title="Siteplan">
-                                            <img src="images/content/siteplan.jpg">
+                                        <a href="images/content/Green Valley/siteplan.jpg" rel="lightbox[tipeA]" title="Siteplan">
+                                            <img src="images/content/Green Valley/siteplan.jpg">
                                         </a>
 
                                     </div>
@@ -145,17 +180,17 @@
                             </div>
                             
                             <div id="tabs-2">
-                            	<div id="tipeB"></div>
+                            	<div id="tipeB" class="dropShadow"></div>
                                 
                                 <div id="container-2">
                                     <div class="image-container">
                                     
-                                        <a href="images/content/denah-69-72.jpg" rel="lightbox[tipeB]" title="Denah Bangunan Tipe 69/72">
-                                                <img src="images/content/denah-69-72.jpg">
+                                        <a href="images/content/Green Valley/denah-69-72.jpg" rel="lightbox[tipeB]" title="Denah Bangunan Tipe 69/72">
+                                                <img src="images/content/Green Valley/denah-69-72.jpg">
                                             </a>
                                         
-                                        <a href="images/content/siteplan.jpg" rel="lightbox[tipeB]" title="Siteplan">
-                                                <img src="images/content/siteplan.jpg">
+                                        <a href="images/content/Green Valley/siteplan.jpg" rel="lightbox[tipeB]" title="Siteplan">
+                                                <img src="images/content/Green Valley/siteplan.jpg">
                                         </a>
                                         
                                     </div>
@@ -165,21 +200,58 @@
                         <!-- tabs -->
                     </div>
 
-                    <h3><div class="accordion-header"><img src="images/mg.png"></div></h3>
+                    <h3><div class="accordion-header"><img src="images/mg1.png"></div></h3>
                     <div>
                     
                          <!-- tabs -->
-                        <div id="tab-project-1">
+                        <div id="tab-project-2">
                             <ul>
                                 <li><a href="#tabs-1">Tulip</a></li>
                                 <li><a href="#tabs-2">Rose</a></li>
                             </ul>
                             <div id="tabs-1">
-                            	
+                            	<div id="tulip" class="dropShadow"></div>
+                                
+                                <div id="container-3">
+                                    <div class="image-container">
+
+                                        <a href="images/content/Mansion Garden/denah-41-72.jpg" rel="lightbox[tulip]" title="Denah Bangunan Tipe 41/72">
+                                            <img src="images/content/Mansion Garden/denah-41-72.jpg">
+                                        </a>
+
+                                        <a href="images/content/Mansion Garden/site-plan.jpg" rel="lightbox[tulip]" title="Siteplan">
+                                            <img src="images/content/Mansion Garden/site-plan.jpg">
+                                        </a>
+                                        
+                                        <a href="images/content/Mansion Garden/peta-lokasi(view).jpg" rel="lightbox[tulip]" title="Peta Lokasi">
+                                            <img src="images/content/Mansion Garden/peta-lokasi.jpg">
+                                        </a>
+
+                                    </div>
+                                </div>
                             </div>
                             
                             <div id="tabs-2">
-                            	
+                            	<div id="rose" class="dropShadow"></div>
+                                
+                                <div id="container-4">
+                                    <div class="image-container">
+
+                                        <a href="images/content/Mansion Garden/denah-45-84.jpg" rel="lightbox[rose]" title="Denah Bangunan Tipe 45/84">
+                                            <img src="images/content/Mansion Garden/denah-45-84.jpg">
+                                        </a>
+
+                                        <a href="images/content/Mansion Garden/site-plan.jpg" rel="lightbox[rose]" title="Siteplan">
+                                            <img src="images/content/Mansion Garden/site-plan.jpg">
+                                        </a>
+                                        
+                                        <a href="images/content/Mansion Garden/peta-lokasi(view).jpg" rel="lightbox[rose]" title="Peta Lokasi">
+                                            <img src="images/content/Mansion Garden/peta-lokasi.jpg">
+                                        </a>
+
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
                         <!-- tabs -->
