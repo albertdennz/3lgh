@@ -124,11 +124,11 @@
                 <div class="section-header">Griya Hijau Development</div>
             	<div id="content">
                 	<p>
-                    	Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
+                    	Developer yang sebelumnya merupakan bagian dari Developer Perumahan Mansion Garden Ciputat, yang telah berhasil menyelesaikan pemasaran dan dalam tahap akhir penyelesaian proyek perdananya sebanyak 30 unit di Perumahan Cluster Mansion Garden Ciputat sepanjang 2011-2012.
                     </p>
                     
                     <p>
-                    	Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+                    	Melanjutkan konsep pembangunan perumahan cluster premium di daerah Ciputat, maka segera dimulai proyek perumahan Green Valley, yang berlokasi di Jl. Villa Mutiara IV/jl H. Mahmud Ginding, yang berdekatan dengan Bintaro Jaya sektor IX dan Stasiun KRL Sudimara. Cluster Green Valley akan memiliki unit sebanyak 30, dengan 24 diantaranya merupakan unit 1 lantai dan 6 merupakan unit 2 lantai. Rumah tersebut memiliki desain minimalis yang ramah lingkungan dan modern, dan menggunakan material kualitas setingkat diatas rata-rata perumahan di sekitar Tangerang Selatan.
                     </p>
                     
                     <p>
@@ -264,7 +264,53 @@
 
             <div id="about-us">
                 <div class="section-header">About Us</div>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
+                
+                	<div class="image-container">
+                        <a href="images/galery/mansion1.jpg" rel="lightbox[galery]" title="Mansion Garden">
+                            <img src="images/galery/mansion1.jpg">
+                        </a>
+                        
+                        <a href="images/galery/mansion2.jpg" rel="lightbox[galery]" title="Mansion Garden">
+                            <img src="images/galery/mansion2.jpg">
+                        </a>
+                        
+                        <a href="images/galery/mansion3.jpg" rel="lightbox[galery]" title="Mansion Garden">
+                            <img src="images/galery/mansion3.jpg">
+                        </a>
+                        
+                        <a href="images/galery/mansion4.jpg" rel="lightbox[galery]" title="Mansion Garden">
+                            <img src="images/galery/mansion4.jpg">
+                        </a>
+                        
+                        <a href="images/galery/mansion5.jpg" rel="lightbox[galery]" title="Mansion Garden">
+                            <img src="images/galery/mansion5.jpg">
+                        </a>
+                        
+                        <a href="images/galery/mansion6.jpg" rel="lightbox[galery]" title="Mansion Garden">
+                            <img src="images/galery/mansion6.jpg">
+                        </a>
+                        
+                        <a href="images/galery/mansion7.jpg" rel="lightbox[galery]" title="Mansion Garden">
+                            <img src="images/galery/mansion7.jpg">
+                        </a>
+                        
+                        <a href="images/galery/mansion8.jpg" rel="lightbox[galery]" title="Mansion Garden">
+                            <img src="images/galery/mansion8.jpg">
+                        </a>
+                        
+                        <a href="images/galery/mansion9.jpg" rel="lightbox[galery]" title="Mansion Garden">
+                            <img src="images/galery/mansion9.jpg">
+                        </a>
+                        
+                        <a href="images/galery/mansion10.jpg" rel="lightbox[galery]" title="Mansion Garden">
+                            <img src="images/galery/mansion10.jpg">
+                        </a>
+                        
+                        <a href="images/galery/mansion11.jpg" rel="lightbox[galery]" title="Mansion Garden">
+                            <img src="images/galery/mansion11.jpg">
+                        </a>
+                	</div>
+
             </div>
         </div>
         
