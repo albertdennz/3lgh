@@ -35,8 +35,7 @@
                 });
 			});
 		</script>
-        
-        <!--Map-->
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <meta charset="UTF-8">
 
@@ -65,29 +64,6 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
         </script>
-        
-        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-            <script type="text/javascript">
-                var map;
-                var mainMap;
-                function initialize() {
-                    var myOptions = {
-                        panControl: false,
-                        zoomControl: false,
-                        mapTypeControl: false,
-                        scaleControl: false,
-                        streetViewControl: false,
-                        overviewMapControl: false,
-                        zoom: 15,
-                        center: new google.maps.LatLng(-6.23779, 106.62894),
-                        mapTypeId: google.maps.MapTypeId.ROADMAP
-                };
-                map = new google.maps.Map(document.getElementById('contactUS_mainFrame_right_Map'),myOptions);
-              }
-        
-            google.maps.event.addDomListener(window, 'load', initialize);
-        </script>
-        <!--End Map-->
 
 
         <!-- FONTS -->
@@ -170,13 +146,6 @@
 
                                     </div>
                                 </div>
-                                
-                                <!-- <h4>Floor Plan</h4>
-                                <div class="fp1tipeA"><b><center>Tipe 41/72</center></b></div>
-                                <div class="fp2tipeA"><b><center>Tipe 45/108</center></b></div>
-
-                                <h4>Site Plan</h4>
-                                <div class="sptipeA"></div> -->
                             </div>
                             
                             <div id="tabs-2">
@@ -266,48 +235,48 @@
                 <div class="section-header">About Us</div>
                 
                 	<div class="image-container">
-                        <a href="images/galery/mansion1.jpg" rel="lightbox[galery]" title="Mansion Garden">
-                            <img src="images/galery/mansion1.jpg">
+                        <a href="images/gallery/mansion1.jpg" rel="lightbox[gallery]" title="Mansion Garden">
+                            <img src="images/gallery/mansion1.jpg">
                         </a>
                         
-                        <a href="images/galery/mansion2.jpg" rel="lightbox[galery]" title="Mansion Garden">
-                            <img src="images/galery/mansion2.jpg">
+                        <a href="images/gallery/mansion2.jpg" rel="lightbox[gallery]" title="Mansion Garden">
+                            <img src="images/gallery/mansion2.jpg">
                         </a>
                         
-                        <a href="images/galery/mansion3.jpg" rel="lightbox[galery]" title="Mansion Garden">
-                            <img src="images/galery/mansion3.jpg">
+                        <a href="images/gallery/mansion3.jpg" rel="lightbox[gallery]" title="Mansion Garden">
+                            <img src="images/gallery/mansion3.jpg">
                         </a>
                         
-                        <a href="images/galery/mansion4.jpg" rel="lightbox[galery]" title="Mansion Garden">
-                            <img src="images/galery/mansion4.jpg">
+                        <a href="images/gallery/mansion4.jpg" rel="lightbox[gallery]" title="Mansion Garden">
+                            <img src="images/gallery/mansion4.jpg">
                         </a>
                         
-                        <a href="images/galery/mansion5.jpg" rel="lightbox[galery]" title="Mansion Garden">
-                            <img src="images/galery/mansion5.jpg">
+                        <a href="images/gallery/mansion5.jpg" rel="lightbox[gallery]" title="Mansion Garden">
+                            <img src="images/gallery/mansion5.jpg">
                         </a>
                         
-                        <a href="images/galery/mansion6.jpg" rel="lightbox[galery]" title="Mansion Garden">
-                            <img src="images/galery/mansion6.jpg">
+                        <a href="images/gallery/mansion6.jpg" rel="lightbox[gallery]" title="Mansion Garden">
+                            <img src="images/gallery/mansion6.jpg">
                         </a>
                         
-                        <a href="images/galery/mansion7.jpg" rel="lightbox[galery]" title="Mansion Garden">
-                            <img src="images/galery/mansion7.jpg">
+                        <a href="images/gallery/mansion7.jpg" rel="lightbox[gallery]" title="Mansion Garden">
+                            <img src="images/gallery/mansion7.jpg">
                         </a>
                         
-                        <a href="images/galery/mansion8.jpg" rel="lightbox[galery]" title="Mansion Garden">
-                            <img src="images/galery/mansion8.jpg">
+                        <a href="images/gallery/mansion8.jpg" rel="lightbox[gallery]" title="Mansion Garden">
+                            <img src="images/gallery/mansion8.jpg">
                         </a>
                         
-                        <a href="images/galery/mansion9.jpg" rel="lightbox[galery]" title="Mansion Garden">
-                            <img src="images/galery/mansion9.jpg">
+                        <a href="images/gallery/mansion9.jpg" rel="lightbox[gallery]" title="Mansion Garden">
+                            <img src="images/gallery/mansion9.jpg">
                         </a>
                         
-                        <a href="images/galery/mansion10.jpg" rel="lightbox[galery]" title="Mansion Garden">
-                            <img src="images/galery/mansion10.jpg">
+                        <a href="images/gallery/mansion10.jpg" rel="lightbox[gallery]" title="Mansion Garden">
+                            <img src="images/gallery/mansion10.jpg">
                         </a>
                         
-                        <a href="images/galery/mansion11.jpg" rel="lightbox[galery]" title="Mansion Garden">
-                            <img src="images/galery/mansion11.jpg">
+                        <a href="images/gallery/mansion11.jpg" rel="lightbox[gallery]" title="Mansion Garden">
+                            <img src="images/gallery/mansion11.jpg">
                         </a>
                 	</div>
 
