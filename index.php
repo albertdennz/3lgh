@@ -123,8 +123,8 @@
                         <!-- tabs -->
                         <div id="tab-project-1">
                             <ul>
-                                <li><a href="#tabs-1">Tipe-A</a></li>
-                                <li><a href="#tabs-2">Tipe-B</a></li>
+                                <li><a href="#tabs-1">Lotus</a></li>
+                                <li><a href="#tabs-2">Magnolia</a></li>
                             </ul>
                             <div id="tabs-1">
                             	<div id="tipeA" class="dropShadow"></div>
