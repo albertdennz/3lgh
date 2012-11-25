@@ -5,10 +5,10 @@
         <title>Home | Griya Hijau</title>
 
         <!-- CSS -->
-		<link rel="stylesheet" type="text/css" href="style/jquery-ui-1.9.1.custom.min.css" rel="stylesheet" />
-        <link rel="stylesheet" type="text/css" href="style/menu.css" rel="stylesheet" />
-        <link rel="stylesheet" type="text/css" href="style/style.css" rel="stylesheet" />
-        <link rel="stylesheet" type="text/css" href="style/lightbox.css">
+        <link rel="stylesheet" type="text/css" href="style/menu.css" />
+        <link rel="stylesheet" type="text/css" href="style/style.css" />
+		<link rel="stylesheet" type="text/css" href="style/jquery-ui-1.9.2.custom.min.css" />
+        <link rel="stylesheet" type="text/css" href="style/lightbox.css" />
 
         <!-- JAVASCRIPT -->
 		<script type="text/javascript" src="js/jquery-1.8.2.js"></script>
@@ -117,7 +117,7 @@
             <div id="projects">
                 <div class="section-header">Projects</div>
                 <div id="accordion-projects">
-                    <h3><div class="accordion-header"><img src="images/gh1.png"></div></h3>
+                    <h3><div class="accordion-header"><img src="resource/image/project/headerBanner/greenValley.png"></div></h3>
                     <div>
 
                         <!-- tabs -->
@@ -169,7 +169,7 @@
                         <!-- tabs -->
                     </div>
 
-                    <h3><div class="accordion-header"><img src="images/mg1.png"></div></h3>
+                    <h3><div class="accordion-header"><img src="resource/image/project/headerBanner/masionGarden.png"></div></h3>
                     <div>
                     
                          <!-- tabs -->
@@ -232,7 +232,7 @@
             <div class="divider"></div>
 
             <div id="about-us">
-                <div class="section-header">About Us</div>
+                <div class="section-header">Our Gallery</div>
                 
                 	<div class="image-container">
                         <a href="images/gallery/mansion1.jpg" rel="lightbox[gallery]" title="Mansion Garden">
@@ -310,7 +310,8 @@
                             </tr>
                             <tr>
                             	<td>
-                                	<input type="submit" value="Send Message" class="fsSubmitButton" />
+                                	<input type="submit" value="Send Message" id="fsSubmitButton" />
+                                    <input type="button" value="May be later" id="fsSubmitButton" class="show_hide" onclick="javascript:void(0)" />
                                 </td>
                             </tr>
                         </table>
@@ -319,6 +320,7 @@
             	</div>
             </div>
         </div>
+
 
         <script type="text/javascript">
             $(function() {

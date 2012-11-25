@@ -148,7 +148,7 @@
 		cursor:text;
 	}
 	
-	.fsSubmitButton{
+	#fsSubmitButton{
 		font-family:'century gothic', 'trebuchet ms', Helvetica, sans-serif, Arial;
 		border-top: 1px solid #999;
 		border-left: 1px solid #999;
@@ -190,5 +190,3 @@
 		text-align:left;
 	}
 /*END Contact US*/
-
-
