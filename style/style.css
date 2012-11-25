@@ -7,7 +7,7 @@
 		background-color: #EEE;
 		width: 100%;
 		max-width: 100%;
-		font: 400 14px 'century gothic', 'Gill Sans', 'trebuchet ms', Tahoma, Geneva, sans-serif;
+		font: 400 16px 'segoe ui','trebuchet ms','century gothic', 'Gill Sans', Tahoma, Geneva, sans-serif;
 		color:#333333;
 		line-height: 140%;
 	}
@@ -41,9 +41,9 @@
 		background-repeat:no-repeat;
 		background-size:100%;
 		margin:auto;
-		/*min-height: 100%;*/
+		min-height: 100%;
 		min-width: 1024px;
-		width: 1366px;
+		width: 1024px;
 		height: 768px;
 	}
 	
@@ -148,7 +148,7 @@
 		cursor:text;
 	}
 	
-	.fsSubmitButton{
+	#fsSubmitButton{
 		font-family:'century gothic', 'trebuchet ms', Helvetica, sans-serif, Arial;
 		border-top: 1px solid #999;
 		border-left: 1px solid #999;
@@ -190,5 +190,3 @@
 		text-align:left;
 	}
 /*END Contact US*/
-
-
